@@ -7,7 +7,7 @@ const ArcDataApi = () => {
     useEffect(() => {
         const fetchAttack = async () => {
             try {
-                const res = await axios.get("http://localhost:8000/attacks/getattacks")
+                const res = await axios.get("https://attack-map.onrender.com/attacks/getattacks")
                 setAttacks(res.data);
             } catch (err) { console.log(err) }
         }
