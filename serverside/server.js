@@ -2,11 +2,11 @@ const express = require("express");
 const app = express();
 
 const cors = require("cors");
-//app.use(cors());
+app.use(cors());
 //enable inproduction
-app.use(cors({
-  origin: "https://attackmap.netlify.app/", // or your deployed frontend URL
-}));
+// app.use(cors({
+//   origin: "https://attackmap.netlify.app/", // or your deployed frontend URL
+// }));
 
 require("dotenv").config();
 app.use(express.json());
