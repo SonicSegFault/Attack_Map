@@ -46,8 +46,8 @@ npm run dev
 
 ## Deployment
 
-Backend → Render 
+- Backend → Render 
 
-Frontend → Netlify (base dir clientside/, publish dir clientside/dist)
+- Frontend → Netlify (base dir clientside/, publish dir clientside/dist)
 
-Database → MongoDB Atlas
+- Database → MongoDB Atlas
